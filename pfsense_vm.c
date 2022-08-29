@@ -14,6 +14,7 @@ int main(){
         if(system("vmrun -T ws list |grep FreeBSD") != 0){
             system("sudo /etc/init.d/vmware start");
             system("vmrun start \'/home/server/vmware/FreeBSD version 10 and earlier 64-bit/FreeBSD version 10 and earlier 64-bit.vmx\'");
+                        system("joke");
         }else{
             sleep(5);
         }
